@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ "$#" -eq 0 ]; then
-	echo "No output file provided"
+	echo "no output file provided!"
 	exit 1
 fi
 

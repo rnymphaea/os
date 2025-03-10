@@ -23,5 +23,5 @@ sudo ls -liR / 2>/dev/null | awk -v inode="$inode" '
 $1 == inode { print dir "/" $NF }  # выводим полный путь, если inode совпадает
 ' >> "$output"
 
-echo "Search completed." >> "$output"
+echo -e "Search completed.\n" >> "$output"
 
